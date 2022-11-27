@@ -1,0 +1,5 @@
+# executable classes
+*.class
+
+# outputs
+**/output/*
