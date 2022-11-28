@@ -4,6 +4,8 @@
 
 - To understand the workflow of git (VCS)
 - To understand the collaborative and branch concept of github
+- To create a merge conflict
+- To resolve the merge conflict
 
 ## Theory
 
@@ -79,4 +81,47 @@ git merge <new-branch-name>
 git push
 ```
 
-*Lab work repo in (https://github.com/college-related/git-practice)*
+**Merge conflict**
+
+1. Change the `index.html` file for both your's and your's partner repo
+2. Push your partner's changes after adding and commiting
+```
+git add index.html
+git commit -m '<message>'
+git push origin main
+```
+3. Your partner will do the same in your repo
+4. Add, commit and try to push your changes in your repo
+```
+git add index.html
+git commit -m '<message>'
+git push origin main
+```
+*A message will show as*
+
+![git pull first message](https://github.com/college-related/Labs-7th-sems/tree/main/Enterprise%20Application%20Development%20(EAD)/labs/lab1/images/pull-first.png)
+
+5. Pull the changes to local repo
+```
+git pull origin main
+```
+6. A merge conflict will be shown
+
+![merge conflict example](https://ihatetomatoes.net/wp-content/uploads/2020/05/img_merge-conflict.png)
+
+7. Resolve the conflict by either accepting incoming changes, keeping current changes, accepting both changes or removing both changes.
+8. Add, commit and push the merge resolve
+```
+git add index.html
+git commit -m 'merge conflict resolved'
+
+or
+
+git commit -am 'merge conflict resolved'
+```
+
+```
+git push origin main
+```
+
+*Lab work repo in (https://github.com/college-related/git-practice) && (https://github.com/Salipa-Gurung/PRACTICE-GIT)*
