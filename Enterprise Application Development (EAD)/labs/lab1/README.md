@@ -99,7 +99,7 @@ git push origin main
 ```
 *A message will show as*
 
-![git pull first message](https://github.com/college-related/Labs-7th-sems/tree/main/Enterprise%20Application%20Development%20(EAD)/labs/lab1/images/pull-first.png)
+![git pull first message](https://github.com/college-related/Labs-7th-sems/blob/main/Enterprise%20Application%20Development%20(EAD)/labs/lab1/images/pull-frist.png?raw=true)
 
 5. Pull the changes to local repo
 ```
