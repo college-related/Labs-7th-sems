@@ -1,5 +1,63 @@
 # executable classes
 *.class
+*.exe
+*.out
 
 # outputs
 **/output/*
+**/build/*
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Intellij
+.idea/
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+target/
+
+# Object files
+*.o
+*.obj
+
+# Caches
+__pycache__/
+*.pyc
+
+# Dependency files
+*.d
+
+# Compiled Static libraries
+*.a
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiler generated files
+*.orig
+*.rej
+*.swp
+*.swo
+
+# IDE files and folders
+*.idea/
+*.vscode/
